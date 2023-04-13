@@ -1,0 +1,64 @@
+├── GraficiWire
+│   ├── Rete3SAttaccoARPCasoBase.pcapng
+│   ├── Rete3SAttaccoARPMitigazione.pcapng
+│   ├── Rete3SAttaccoCasoBaseLLDP.pcapng
+│   ├── Rete3SAttaccoLLDPMitigazioneCEK283.pcapng
+│   ├── Rete3SAttaccoLLDPMitigazioneCEK409.pcapng
+│   ├── Rete3SAttaccoLLDPMitigazioneCER256.pcapng
+│   ├── Rete3SAttaccoLLDPMitigazioneCER384.pcapng
+│   ├── Rete3SAttaccoLLDPMitigazioneFirmaDigitaleRSA2048.pcapng
+│   ├── Rete3SAttaccoLLDPMitigazioneHMAC.pcapng
+│   ├── Rete3SCasoBaseARP.pcapng
+│   └── Rete3SCasoBaseLLDP.pcapng
+├── mininet
+│   ├── examples
+│   │   ├── arp.py
+│   │   ├── LLDPinj.py
+│   │   ├── reteRect.py
+│   │   ├── reteS10.py
+│   │   ├── reteS3.py
+│   │   ├── reteS5.py
+│   │   ├── reteS7.py
+├── pox
+│   ├── GenerazionePacchettoLLDPCasoBase.txt
+│   ├── GenerazionePacchettoLLDPMitigazioneCEK283.txt
+│   ├── GenerazionePacchettoLLDPMitigazioneCEK409.txt
+│   ├── GenerazionePacchettoLLDPMitigazioneCER256.txt
+│   ├── GenerazionePacchettoLLDPMitigazioneCER384.txt
+│   ├── GenerazionePacchettoLLDPMitigazioneFirmaDigitaleRSA2048.txt
+│   ├── GenerazionePacchettoLLDPMitigazioneHMAC.txt
+│   ├── LatenzaPacchettiAccettatiCasoBase.txt
+│   ├── LatenzaPacchettiIgnoratiMitigazioneARP.txt
+│   ├── MemCPUAttaccoARPBase.txt
+│   ├── MemCPUAttaccoARPMitigazione.txt
+│   ├── MemCPUAttaccoLLDPBase.txt
+│   ├── MemCPUAttaccoLLDPMitigazioneCEK283.txt
+│   ├── MemCPUAttaccoLLDPMitigazioneCEK409.txt
+│   ├── MemCPUAttaccoLLDPMitigazioneCER256.txt
+│   ├── MemCPUAttaccoLLDPMitigazioneCER384.txt
+│   ├── MemCPUAttaccoLLDPMitigazioneFirmaDigitaleRSA2048.txt
+│   ├── MemCPUAttaccoLLDPMitigazioneHMAC.txt
+│   ├── MemCPUCasoBaseARP.txt
+│   ├── MemCPUCasoBaseLLDP.txt
+│   ├── pox
+│   │   ├── forwarding
+│   │   │   ├── l3_learning.py
+│   │   │   ├── l3_mitigationARP.py
+│   │   ├── openflow
+│   │   │   ├── discovery_mitigationCEK283.py
+│   │   │   ├── discovery_mitigationCEK409.py
+│   │   │   ├── discovery_mitigationCER256.py
+│   │   │   ├── discovery_mitigationCER384.py
+│   │   │   ├── discovery_mitigationFirmaDigitaleRSA2048.py
+│   │   │   ├── discovery_mitigationHMAC.py
+│   │   │   ├── discovery.py
+│   ├── pox.py
+│   ├── prestazioni.sh
+│   ├── ProcessamentoPacchettoLLDPCasoBase.txt
+│   ├── ProcessamentoPacchettoLLDPMitigazioneCEK283.txt
+│   ├── ProcessamentoPacchettoLLDPMitigazioneCEK409.txt
+│   ├── ProcessamentoPacchettoLLDPMitigazioneCER256.txt
+│   ├── ProcessamentoPacchettoLLDPMitigazioneCER384.txt
+│   ├── ProcessamentoPacchettoLLDPMitigazioneFirmaDigitaleRSA2048.txt
+│   ├── ProcessamentoPacchettoLLDPMitigazioneHMAC.txt
+│   ├── TempoMitigazione.txt
